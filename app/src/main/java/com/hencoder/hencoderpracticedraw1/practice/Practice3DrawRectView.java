@@ -29,7 +29,7 @@ public class Practice3DrawRectView extends View {
         paint.setStyle(Paint.Style.FILL);
         paint.setColor(Color.BLACK);
         paint.setAntiAlias(true);
-        canvas.drawRect(200,200,200,200,paint);
+        canvas.drawRect(200,200,400,400,paint);
 //        练习内容：使用 canvas.drawRect() 方法画矩形
     }
 }
